@@ -1,0 +1,315 @@
+body {
+    background: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.site-width {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.top-baner {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 100px;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    margin-right: 40px;
+    margin-top: 110px;
+}
+
+h1 a{
+    font-size: 30px;
+    color: rgb(41, 40, 40);
+    text-decoration: none;
+}
+
+.ib {
+    display: inline-block;
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+    font-weight: bold;
+    font-size: 14px;
+    /* float: left; */
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 110px;
+}
+
+li a{
+    color: #333;
+    text-decoration: none;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+h2{
+    width: 80px;
+    height: 180px;
+    background: #969696;
+    text-align: center;
+    float: right;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 1px;
+    padding: 40px 0;
+    margin: 0;
+    font-weight: 100;
+}
+
+.tate {
+    writing-mode: vertical-rl;
+}
+
+h2 a{
+    color: white;
+    text-decoration: none;
+}
+
+h2 a:hover{
+    color: #333;
+}
+
+
+
+/* news */
+
+#news {
+    margin-bottom: 100px;
+  }
+
+.news_title{
+    font-size: 35px;
+    font-family: 'Noto Sans Wancho', sans-serif;
+    margin-bottom: 5px;
+}
+.news_title2{
+    font-size: 15px;
+}
+
+h3 {
+    margin: 35px;
+    font-weight: 100;
+}
+
+  #news .list {
+    display: flex;
+  }
+ 
+  #news .list li {
+    width: calc(100%/3);
+    border-right: solid 1px #000;
+    padding: 10px 20px;
+    font-weight: 100;
+    list-style: none;
+  }
+  
+  #news .list li .date {
+    margin-bottom: 15px;
+    font-weight: 100;
+  }
+  #news .date span {
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    background-color: #969696;
+    color: #fff;
+    display: inline-block;
+    font-size: 0.75px;
+    font-weight: 100;
+    margin-left: 10px;
+    text-align: center;
+  }
+
+  .under {
+    text-decoration-line: underline;
+    text-underline-offset: 1em;
+}
+
+
+
+
+  /* location */
+
+  #location {
+    /* display: block; the section is already a block. */
+    /* overflow: auto; */
+    /* overflow: scroll; */
+    overflow: auto;
+  }
+
+  .lc_baner{
+    width: 600px;
+    height: 300px;
+    /* float: left; */
+  }
+
+.lc_panel{
+    width: 35%;
+    float: right;
+}
+
+.lc_title{
+    font-size: 30px;
+    font-family: 'Noto Sans Wancho', sans-serif;
+    margin-bottom: 5px;
+    margin-top: 100px;
+    font-weight: 100;
+}
+.lc_title2{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.lc_p{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.spaced {
+    line-height: 3em;
+}
+
+
+
+/* other */
+
+.panel_all{
+    display: flex;
+    justify-content: space-between;
+}
+
+.panel img{
+    width: 300px;
+    height: 380px;
+    border-radius: 2px;
+}
+
+.panel{
+    float: left;
+    font-size: 14px;
+}
+.panel_all h6, p{
+    text-align: center;
+    font-size: 14px;
+}
+
+#other{
+    margin-bottom: 150px;
+}
+
+
+/* footer */
+
+.footer_title{
+    float: left;
+    margin: 40px 30px;
+}
+
+.footer a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: rgb(41, 40, 40);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer{
+    /*clear: both;*/
+    background: #969696;
+    color: #f0f0f0;
+    padding: 30px 40px;
+    
+}
+.footer_p{
+    display: flex;
+    flex-direction:row-reverse;
+}
+.footer_p p{
+    font-size: 12px;
+}
+
+
+/* contact */
+
+.title{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+form{
+    margin: 0 auto;
+    width: 50%;
+}
+
+input, textarea{
+    background: #f6f5f5;
+    border: none;
+    margin-bottom: 15px;
+}
+
+input[type="text"]{
+    height: 50px;
+    width: 100%;
+}
+
+textarea{
+    height: 380px;
+    width: 100%;
+}
+
+.submit{
+    background: #333;
+    color: white;
+    padding: 15px 20px;
+   /* float: right; */
+}
+
+.help-block{
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+
+/* JS */
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+.help-block{
+    font-size: 14px;
+}
+
+input, textarea{
+    font-size: 18px;
+}
+
+.error input, .error textarea{
+    border:  1px solid #ff4d4b;
+}
+
+.error label, .error .help-block{
+    color: #ff4d4b;
+}
+
+.success input, .success textarea{
+    border: 1px solid #2fb4ce;
+}
+
+.success label, .success .help-block{
+    color: #2fb4ce;
+}
